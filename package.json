@@ -1,6 +1,6 @@
 {
   "name": "@alexjpaz/soundboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "private": true,
   "repository": "git@github.com:alexjpaz-playground/soundboard.git",
