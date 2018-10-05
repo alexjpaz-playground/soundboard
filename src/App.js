@@ -2,8 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { Howl } from 'howler';
+
 class App extends Component {
   render() {
+    const h = new Howl({
+      src: ['https://firebasestorage.googleapis.com/v0/b/soundboard-alexjpaz.appspot.com/o/mmmwatchasaaayyy2.mp3?alt=media'],
+      html5: true
+    });
+    h.play();
     return (
       <div className="App">
         <header className="App-header">
